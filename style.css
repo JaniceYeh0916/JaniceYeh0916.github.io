@@ -1,0 +1,29 @@
+h1 {
+    font-size: 5rem;
+    text-align:center;
+    font-family:Comic Sans MS;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+body {
+    zoom:1;
+    margin: 0px;
+    padding: 0px;
+    background:#c9defa url("back.jpg") center center fixed no-repeat;
+    background-size: cover;
+}
+
+marquee {
+    font-size: 3rem;
+    font-family:Comic Sans MS;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+#photo {
+    position:absolute;
+    bottom:130px;
+    left:230px;
+}
+
