@@ -1,5 +1,7 @@
-for (var i = 0; i < images.length; i++) {
-    var image = images[i], width = String(image.currentStyle.width);
+var image = document.images[i];
+image.currentStyle = undefined;
+for (var i = 0; i < image.length; i++) {
+    width = String(image.currentStyle.width);
     if (width.indexOf('%') == -1) {
         continue;
     }
