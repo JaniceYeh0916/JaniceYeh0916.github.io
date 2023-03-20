@@ -1,4 +1,4 @@
-var image = document.images[i];
+var image = document.images[0];
 image.currentStyle = undefined;
 for (var i = 0; i < image.length; i++) {
     width = String(image.currentStyle.width);
