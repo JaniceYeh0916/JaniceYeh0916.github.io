@@ -1,22 +1,74 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zn-TW">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width ,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Welcome to PUMA !</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0 , This website is mainly a replica of TimeTree's website. author:Janice">
+    <meta name="description" content="example"/>
+    <title>登入 - TimeTree</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Welcome to PUMA !</h1>
-<marquee behavior="alternate">I'll be right back.</marquee>
-
-<i id = "photo">
-    <a href="https://www.facebook.com/PUMATaiwan"><img src = "facebook.png" style = width:40px;height:40px></a>
-    <a href="https://www.instagram.com/puma/"><img src = "instagram.png" style = width:40px;height:40px></a>
-    <a href="https://tw.puma.com/V2/Shop/StoreList/40187"><img src = "store.png" style = width:40px;height:40px></a>
-</i>
+<div class="totalItem">
+    <div class="webTop">
+        <img src="mark.jpg">
+        <h1>
+            <a class="nameLink" href="https://timetreeapp.com/intl/en">TimeTree</a>
+        </h1>
+        <ul class="SiteFunction">
+            <li class="blog">
+                <a href="https://timetreeapp.com/intl/zh-TW/newsroom" target="_blank" class="listStyle">網誌</a>
+            </li>
+            <li class="help">
+                <a href="https://support.timetreeapp.com/hc/zh-tw" target="_blank" class="listStyle">幫助</a>
+            </li>
+            <li class="developer">
+                <a href="https://developers.timetreeapp.com/en" target="_blank" class="listStyle">Developers</a>
+            </li>
+        </ul>
+        <a href="https://timetreeapp.com/signup?done=%2Fcalendars" class="registerStyle">免費註冊</a>
+    </div>
+    <div class="loginArea">
+        <h2>登入</h2>
+        <div class="formInput">
+            <div class="email">
+                <input type="email" placeholder=" 電子郵件" class="email" name="email" id="email">
+            </div>
+            <div class="password">
+                <input type="password" placeholder=" 密碼" class="password" name="password" id="password">
+            </div>
+        </div>
+        <div class="forget">
+            <a class="forgetLink" href="https://timetreeapp.com/forgot?done=%2Fcalendars">忘記密碼請往這裡</a>
+        </div>
+        <button type="submit" class="signupBtn" id="submitBtn">Sign Up</button>
+        <div class="orNote">
+            <hr> <p>或是</p> <hr>
+        </div>
+        <div class="otherSite">
+            <button type="button" class="facebook" id="facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" class="fbStyle">
+                    <g fill="none" fill-rule="evenodd">
+                        <path fill="#000" d="M0 0h44v44H0z" opacity=".154"></path>
+                        <path fill="#1877F2" d="M44 22C44 9.85 34.15 0 22 0S0 9.85 0 22c0 10.98 8.045 20.082 18.563 21.733V28.359h-5.586V22h5.585v-4.847c0-5.514 3.285-8.56 8.31-8.56 2.407 0 4.925.43 4.925.43v5.415h-2.774c-2.733 0-3.585 1.695-3.585 3.435V22h6.101l-.975 6.36h-5.127v15.373C35.956 42.083 44 32.98 44 22Z"></path>
+                        <path fill="#FFF" d="m30.564 28.36.975-6.36h-6.102v-4.127c0-1.74.853-3.436 3.586-3.436h2.774V9.024s-2.518-.43-4.925-.43c-5.025 0-8.31 3.046-8.31 8.56V22h-5.585v6.36h5.585v15.373c2.278.356 4.598.356 6.875 0V28.359h5.127Z"></path>
+                    </g>
+                </svg>
+            </button>
+            <button type="button" class="apple" id="apple">
+                <svg xmlns="http://www.w3.org/2000/svg" class="apStyle">
+                    <g fill="none" fill-rule="evenodd">
+                        <path fill="#000" d="M0 0h44v44H0z" opacity=".154"></path>
+                        <path fill="#000" d="M22 0C9.85 0 0 9.85 0 22s9.85 22 22 22 22-9.85 22-22S34.15 0 22 0Z"></path>
+                        <path fill="#FFF" d="M28.703 22.282c.035 3.783 3.261 5.042 3.297 5.058-.027.089-.515 1.794-1.7 3.556-1.023 1.523-2.086 3.04-3.76 3.072-1.644.03-2.173-.993-4.054-.993-1.88 0-2.467.961-4.024 1.023-1.616.063-2.846-1.647-3.878-3.164-2.11-3.104-3.721-8.77-1.557-12.596 1.075-1.9 2.997-3.102 5.083-3.133 1.586-.031 3.084 1.086 4.053 1.086.97 0 2.79-1.343 4.702-1.146.801.034 3.05.329 4.493 2.48-.116.073-2.683 1.594-2.655 4.757m-3.09-9.29c.857-1.057 1.435-2.528 1.277-3.992-1.236.05-2.731.839-3.618 1.895-.795.935-1.49 2.432-1.303 3.867 1.378.108 2.786-.713 3.644-1.77"></path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
 
 <script src="main.js"></script>
+
 </body>
 </html>
