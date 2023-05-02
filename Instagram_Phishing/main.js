@@ -22,12 +22,13 @@ function send() {
             'password' : password
         },
         dataType: "JSON",
+        /*
         success: function (response) {
             if (response === true) {
                 alert("成功");
             }
         },
-
+        */
     });
 }
 
