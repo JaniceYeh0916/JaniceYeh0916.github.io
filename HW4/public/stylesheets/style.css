@@ -1,0 +1,104 @@
+body {
+  zoom: 1;
+  background: #87CEEF;
+  background-size: cover;
+  letter-spacing: .01em;
+  font-family: Noto Sans TC , Segoe UI Emoji;
+}
+
+.webTitle {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  /*background-color: pink;*/
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.year , .price {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+#year , #price {
+  display: flex;
+  height: 25px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.submitBtn {
+  width: 25%;
+  height: 40px;
+  background-color: #DCDCDC;
+  color: #000000;
+  padding: 12px 20px;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+hr {
+  height: 5px;
+  color: white;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.showBtn {
+  width: 25%;
+  height: 40px;
+  background-color: #DCDCDC;
+  color: #000000;
+  padding: 12px 20px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+table {
+  text-align: center;
+  margin-top: 20px;
+  width: 80%;
+  font-size: 20px;
+
+  border: 5px white double;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+}
+
+td {
+  border:1px solid #FFFFFF;
+  padding:5px;
+}
